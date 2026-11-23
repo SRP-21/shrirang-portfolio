@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0.3" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#1E1E1E"/>
+      <stop offset="100%" stop-color="#2A2A2A"/>
+    </linearGradient>
+    <pattern id="circuit" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M0,50 L20,50 L20,30 L40,30 L40,70 L60,70 L60,50 L100,50" fill="none" stroke="#fff" stroke-width="0.5" opacity="0.1"/>
+      <path d="M50,0 L50,25 L70,25 L70,75 L50,75 L50,100" fill="none" stroke="#fff" stroke-width="0.5" opacity="0.1"/>
+      <circle cx="20" cy="50" r="2" fill="#fff" opacity="0.08"/>
+      <circle cx="40" cy="30" r="2" fill="#fff" opacity="0.08"/>
+      <circle cx="60" cy="70" r="2" fill="#fff" opacity="0.08"/>
+      <circle cx="70" cy="25" r="2" fill="#fff" opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect width="800" height="600" fill="url(#circuit)"/>
+  <text x="400" y="560" text-anchor="middle" font-family="Inter,Helvetica,Arial,sans-serif" font-size="14" fill="#E0E0E0" opacity="0.3">Tech Project</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0%" stop-color="#E0DFDB"/>
+      <stop offset="100%" stop-color="#D0CFCB"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <g transform="translate(540,500)" opacity="0.15" fill="none" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-20,15 L-20,-10 L5,-20 L5,25 Z"/>
+    <line x1="5" y1="-8" x2="18" y2="-14"/>
+    <line x1="5" y1="2" x2="22" y2="2"/>
+    <line x1="5" y1="12" x2="18" y2="18"/>
+    <rect x="-24" y="-2" width="8" height="12" rx="1"/>
+  </g>
+  <text x="540" y="1040" text-anchor="middle" font-family="Inter,Helvetica,Arial,sans-serif" font-size="14" fill="#1A1A1A" opacity="0.2">Campaign Creative</text>
+</svg>
